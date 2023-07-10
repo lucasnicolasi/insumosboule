@@ -211,7 +211,13 @@
 
   @media (max-width: 767px) {
     nav {
-      position: static;
+      position: sticky;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .section{
+      padding-top: 0px;
     }
   }
 
