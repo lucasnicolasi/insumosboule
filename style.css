@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e3e3e3;
+    z-index: 9999;
+  }
+  
+  .section {
+    margin-top: 16%; 
+  }
+  
+.contacto{
+  padding-top: 10px;
+  padding-left: 25%;
+  display: flex;
+  justify-content: unset;
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+}
+
+.tel{
+  padding-left: 20px;
+}
+
+.enlace{
+  text-decoration: none;
+}
+
+.enlace:hover{
+  transition: 3s;
+  color: rgb(50, 42, 165);
+}
+  
+.lista{
+    display: flex;
+    justify-content: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+} 
+
+.list{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding-right: 15%;
+}
+
+.boule{
+  padding-left: 5%;
+}
+
+.logo{
+    width: 10%;
+    padding-top: 1%;
+}
+
+.logoContainer{
+    padding-left: 2%;
+}
+
+.titulo{
+    background-color: rgb(36, 36, 42);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tituloPrincipal{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    margin-bottom: 20px;
+  }
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .container{
+    padding-top: 30px;
+  }
+
+  .intro{
+    text-align: initial;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .tituloSanitarios{
+    text-align: initial;
+    padding-left: 20px;
+  }
+
+  .tituloInfraestructura{
+    text-align: initial;
+    padding-left: 20px;
+  }
+
+  .tituloTendido{
+    text-align: initial;
+    padding-left: 20px;
+  }
+
+  .tituloPead{
+    text-align: initial;
+    padding-left: 20px;
+  }
+
+  .pUno{
+    text-align: initial;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .pDos{
+    text-align: initial;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .pTres{
+    text-align: initial;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .pCuatro{
+    text-align: initial;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  .listaPead{
+    list-style: none;
+    padding-left: 20px;
+  }
+
+  .listaNosotros{
+    padding-left: 20px;
+  }
+
+  .logoNosotros{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .bouleNosotros{
+    width: 15%;
+  }
+
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .whatsappIcono{
+    width: 32px;
+    height: 32px;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .logo {
+      width: 50%;
+    }
+    .tituloPrincipal {
+      font-size: 24px;
+    }
+    .tituloSanitarios,
+    .tituloInfraestructura,
+    .tituloTendido,
+    .tituloPead {
+      font-size: 20px;
+    }
+    .intro,
+    .pUno,
+    .pDos,
+    .pTres,
+    .pCuatro {
+      font-size: 16px;
+    }
+  }
+
+  /* Estilos para tablets y dispositivos con pantalla más grande */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    nav {
+      position: static;
+    }
+  }
+
+  /* Estilos para tablets y dispositivos con pantalla más grande */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .carousel-inner img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  /* Estilos para tablets y dispositivos con pantalla más grande */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .carousel-inner img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 844px) {
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+  }
