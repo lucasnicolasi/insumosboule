@@ -15,6 +15,10 @@ nav {
   margin-top: 16%;
 }
 
+.sectionNosotros {
+  margin-top: 0%;
+}
+
 .contacto {
   padding-top: 10px;
   padding-left: 25%;
@@ -137,6 +141,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .image-wrapper:hover .image-description {
@@ -209,6 +216,9 @@ nav {
   opacity: 0;
   transition: opacity 0.3s ease;
   text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  transition: 1s;
 }
 
 .descripcion p {
@@ -217,7 +227,7 @@ nav {
 
 .imagen:hover {
   cursor: pointer;
-  background-color: rgba(0, 191, 255, 0.7);
+  background-color: rgba(0, 191, 255, 0.779);
 }
 
 .imagen:hover img {
@@ -380,6 +390,7 @@ nav {
 @media (max-width: 768px) {
   .section {
     padding-top: 0px;
+    margin-top: -4%;
   }
 }
 
@@ -480,3 +491,22 @@ nav {
   }
 }
 
+@media (max-width: 768px) {
+  .tituloNosotros {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-description {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 768px) {
+  .descripcion {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
