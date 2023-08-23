@@ -330,7 +330,7 @@ nav {
   width: 15%;
 }
 
-.ventaFooter{
+.ventaFooter {
   text-align: center;
   color: blue;
 }
@@ -438,6 +438,15 @@ nav {
     display: flex;
     justify-content: center;
     padding-left: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .list {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding-right: 12%;
   }
 }
 
