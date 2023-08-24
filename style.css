@@ -318,6 +318,7 @@ nav {
 
 .listaNosotros {
   padding-left: 20px;
+  list-style: none;
 }
 
 .logoNosotros {
