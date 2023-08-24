@@ -438,7 +438,7 @@ nav {
   .lista {
     display: flex;
     justify-content: center;
-    padding-left: 15%;
+    padding-left: 8%;
   }
 }
 
@@ -447,7 +447,7 @@ nav {
     list-style: none;
     display: inline-block;
     margin: 5px;
-    padding-right: 12%;
+    padding-right: 9%;
   }
 }
 
